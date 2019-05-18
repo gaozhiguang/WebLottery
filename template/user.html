@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>获奖名单</title>
+  </head>
+  <body style="background: aqua;">
+  <form method="post" action="/choujiang">
+      <h2>获奖信息如下</h2>
+      <p>一等奖中奖名单： 共{{num1}}人， {{people1}}</p>
+      <p>二等奖中奖名单： 共{{num2}}人，{{people2}}</p>
+      <p>三等奖中奖名单： 共{{num3}}人，{{people3}}</p>
+      <p>Thanks for your participation. These people take part in the lottery: {{people_in}}</p>
+      <br>
+      <br>
+      <p>显示中奖人员名单<br><input type="submit" value="开始抽奖"></p>
+  </form>
+
+  </body>
+</html>
